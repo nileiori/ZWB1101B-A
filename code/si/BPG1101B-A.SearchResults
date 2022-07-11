@@ -1,0 +1,4 @@
+---- PRODUCT_CONFIG_ADDRESS Matches (3 in 2 files) ----
+Config.c (project\src):    uint32_t addr = PRODUCT_CONFIG_ADDRESS;
+Config.h (project\inc):#define PRODUCT_CONFIG_ADDRESS              0x08003000
+Config.h (project\inc):#define PRODUCT_CONFIG_ADDRESS              0x0800F800

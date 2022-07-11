@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99
+-I.\RTE\_project
+-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include
+-IC:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP
+-o .\objects\drv_pin.o --omf_browse .\objects\drv_pin.crf --depend .\objects\drv_pin.d "..\src\device\drv_pin.c"

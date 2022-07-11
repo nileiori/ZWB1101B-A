@@ -1,0 +1,2189 @@
+Dependencies for Project 'BPG1101B-A', Target 'project': (DO NOT MODIFY !)
+F (..\src\adc.c)(0x611C5A6C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\inc\gpio.h)(0x62148B18)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+I (..\src\device\drv_pin.h)(0x611C5A6C)
+I (..\src\device\ugdef.h)(0x611C5A6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\inc\adc.h)(0x62148B18)
+I (..\inc\timer.h)(0x62148B18)
+F (..\src\app_usart.c)(0x6165031A)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\app_usart.o --omf_browse .\objects\app_usart.crf --depend .\objects\app_usart.d)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\src\device\serial.h)(0x614560E0)
+I (..\src\device\ugdef.h)(0x611C5A6C)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\inc\usart.h)(0x62148B18)
+I (..\inc\app_usart.h)(0x62148B18)
+I (..\src\device\drv_pin.h)(0x611C5A6C)
+I (..\inc\usb.h)(0x62148B18)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_core.h)(0x611C5A6B)
+I (..\inc\usb_conf.h)(0x62148B18)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_regs.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_defines.h)(0x611C5A6B)
+I (..\inc\system.h)(0x62148B18)
+I (..\inc\led.h)(0x62148B18)
+I (..\src\IQS\iqs.h)(0x628DE578)
+I (..\inc\hid_descriptor.h)(0x6215E519)
+I (..\src\device\taskschedule.h)(0x6142DFB0)
+I (..\inc\queue.h)(0x62148B18)
+F (..\src\comm.c)(0x611C5A6C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\comm.o --omf_browse .\objects\comm.crf --depend .\objects\comm.d)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\inc\usb.h)(0x62148B18)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_core.h)(0x611C5A6B)
+I (..\inc\usb_conf.h)(0x62148B18)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_regs.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_defines.h)(0x611C5A6B)
+I (..\inc\led.h)(0x62148B18)
+I (..\inc\scan.h)(0x62148B18)
+I (..\inc\digitizer_comm.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\system.h)(0x62148B18)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usbd_std.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_std.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usbd_core.h)(0x611C5A6B)
+I (..\inc\usbd_conf.h)(0x62148B19)
+I (C:\Keil_v5\ARM\ARMCC\include\wchar.h)(0x57F606B8)
+I (..\inc\pressure.h)(0x62148B19)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\inc\gpio.h)(0x62148B18)
+I (..\src\device\drv_pin.h)(0x611C5A6C)
+I (..\src\device\ugdef.h)(0x611C5A6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\inc\key.h)(0x62148B18)
+I (..\inc\timer.h)(0x62148B18)
+I (..\inc\usart.h)(0x62148B18)
+I (..\inc\app_usart.h)(0x62148B18)
+I (..\src\device\taskschedule.h)(0x6142DFB0)
+F (..\src\config.c)(0x61430797)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\config.o --omf_browse .\objects\config.crf --depend .\objects\config.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+I (..\inc\gpio.h)(0x62148B18)
+I (..\src\device\drv_pin.h)(0x611C5A6C)
+I (..\src\device\ugdef.h)(0x611C5A6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\inc\led.h)(0x62148B18)
+I (..\src\IQS\iqs.h)(0x628DE578)
+I (..\inc\hid_descriptor.h)(0x6215E519)
+F (..\src\digitizer_comm.c)(0x611C5A6C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\digitizer_comm.o --omf_browse .\objects\digitizer_comm.crf --depend .\objects\digitizer_comm.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\inc\digitizer_comm.h)(0x62148B19)
+I (..\inc\digitizer_api.h)(0x62148B18)
+I (..\inc\scan.h)(0x62148B18)
+I (..\inc\preferences.h)(0x621594ED)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (..\inc\usb.h)(0x62148B18)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_core.h)(0x611C5A6B)
+I (..\inc\usb_conf.h)(0x62148B18)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_regs.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_defines.h)(0x611C5A6B)
+I (..\inc\config.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usbd_std.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_std.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usbd_core.h)(0x611C5A6B)
+I (..\inc\usbd_conf.h)(0x62148B19)
+I (C:\Keil_v5\ARM\ARMCC\include\wchar.h)(0x57F606B8)
+I (..\inc\timer.h)(0x62148B18)
+F (..\src\gd32f3x0_it.c)(0x614548B4)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\gd32f3x0_it.o --omf_browse .\objects\gd32f3x0_it.crf --depend .\objects\gd32f3x0_it.d)
+I (..\inc\gd32f3x0_it.h)(0x62148B18)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usbd_int.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usbd_core.h)(0x611C5A6B)
+I (..\inc\usbd_conf.h)(0x62148B19)
+I (..\inc\usb_conf.h)(0x62148B18)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_core.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_regs.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_defines.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usbd_std.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_std.h)(0x611C5A6B)
+I (C:\Keil_v5\ARM\ARMCC\include\wchar.h)(0x57F606B8)
+I (..\inc\usb_delay.h)(0x62148B19)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+I (..\src\device\clock.h)(0x611C5A6C)
+I (..\inc\gpio.h)(0x62148B18)
+I (..\src\device\drv_pin.h)(0x611C5A6C)
+I (..\src\device\ugdef.h)(0x611C5A6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+F (..\src\gpio.c)(0x614549C1)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\inc\gpio.h)(0x62148B18)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+I (..\src\device\drv_pin.h)(0x611C5A6C)
+I (..\src\device\ugdef.h)(0x611C5A6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+F (..\src\hid_core.c)(0x611C5A6C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\hid_core.o --omf_browse .\objects\hid_core.crf --depend .\objects\hid_core.d)
+I (..\inc\hid_core.h)(0x62148B18)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usbd_std.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_std.h)(0x611C5A6B)
+I (..\inc\usb_conf.h)(0x62148B18)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usbd_core.h)(0x611C5A6B)
+I (..\inc\usbd_conf.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_core.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_regs.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_defines.h)(0x611C5A6B)
+I (C:\Keil_v5\ARM\ARMCC\include\wchar.h)(0x57F606B8)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usbd_int.h)(0x611C5A6B)
+I (..\inc\hid_descriptor.h)(0x6215E519)
+I (..\inc\usb.h)(0x62148B18)
+F (..\src\hid_descriptor.c)(0x62148A7F)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\hid_descriptor.o --omf_browse .\objects\hid_descriptor.crf --depend .\objects\hid_descriptor.d)
+I (..\inc\hid_core.h)(0x62148B18)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usbd_std.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_std.h)(0x611C5A6B)
+I (..\inc\usb_conf.h)(0x62148B18)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usbd_core.h)(0x611C5A6B)
+I (..\inc\usbd_conf.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_core.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_regs.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_defines.h)(0x611C5A6B)
+I (C:\Keil_v5\ARM\ARMCC\include\wchar.h)(0x57F606B8)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usbd_int.h)(0x611C5A6B)
+I (..\inc\hid_descriptor.h)(0x6215E519)
+I (..\inc\preferences.h)(0x621594ED)
+F (..\src\key.c)(0x611C5A6C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\inc\gpio.h)(0x62148B18)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+I (..\src\device\drv_pin.h)(0x611C5A6C)
+I (..\src\device\ugdef.h)(0x611C5A6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\inc\queue.h)(0x62148B18)
+I (..\inc\led.h)(0x62148B18)
+I (..\inc\usb.h)(0x62148B18)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_core.h)(0x611C5A6B)
+I (..\inc\usb_conf.h)(0x62148B18)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_regs.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_defines.h)(0x611C5A6B)
+I (..\inc\key.h)(0x62148B18)
+I (..\inc\scan.h)(0x62148B18)
+I (..\inc\digitizer_comm.h)(0x62148B19)
+I (..\inc\usart.h)(0x62148B18)
+I (..\inc\app_usart.h)(0x62148B18)
+I (..\inc\system.h)(0x62148B18)
+I (..\src\device\taskschedule.h)(0x6142DFB0)
+F (..\src\led.c)(0x614316AF)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+I (..\inc\gpio.h)(0x62148B18)
+I (..\src\device\drv_pin.h)(0x611C5A6C)
+I (..\src\device\ugdef.h)(0x611C5A6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\inc\led.h)(0x62148B18)
+F (..\src\main.c)(0x614549DA)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+I (..\inc\systick.h)(0x62148B18)
+I (..\inc\usart.h)(0x62148B18)
+I (..\src\device\ugdef.h)(0x611C5A6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\inc\scan.h)(0x62148B18)
+I (..\inc\digitizer_comm.h)(0x62148B19)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\inc\app_usart.h)(0x62148B18)
+I (..\inc\led.h)(0x62148B18)
+I (..\inc\key.h)(0x62148B18)
+I (..\inc\timer.h)(0x62148B18)
+I (..\inc\gpio.h)(0x62148B18)
+I (..\src\device\drv_pin.h)(0x611C5A6C)
+I (..\inc\comm.h)(0x62148B18)
+I (..\src\IQS\iqs.h)(0x628DE578)
+I (..\inc\system.h)(0x62148B18)
+I (..\src\device\taskschedule.h)(0x6142DFB0)
+F (..\src\pressure.c)(0x611C5A6C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\pressure.o --omf_browse .\objects\pressure.crf --depend .\objects\pressure.d)
+I (..\inc\digitizer_comm.h)(0x62148B19)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\inc\digitizer_api.h)(0x62148B18)
+I (..\inc\scan.h)(0x62148B18)
+I (..\inc\preferences.h)(0x621594ED)
+I (..\inc\pressure.h)(0x62148B19)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\led.h)(0x62148B18)
+F (..\src\pwm.c)(0x611C5A6C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\pwm.o --omf_browse .\objects\pwm.crf --depend .\objects\pwm.d)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+I (..\inc\scan.h)(0x62148B18)
+I (..\inc\digitizer_comm.h)(0x62148B19)
+F (..\src\queue.c)(0x613FF75B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (..\inc\queue.h)(0x62148B18)
+F (..\src\scan.c)(0x611C5A6C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\scan.o --omf_browse .\objects\scan.crf --depend .\objects\scan.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\inc\scan.h)(0x62148B18)
+I (..\inc\digitizer_comm.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+I (..\inc\xy_calibration.h)(0x62148B18)
+I (..\inc\pressure.h)(0x62148B19)
+I (..\inc\xy_antana.h)(0x62148B18)
+I (..\inc\pwm.h)(0x62148B19)
+I (..\inc\adc.h)(0x62148B18)
+I (..\inc\usb.h)(0x62148B18)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_core.h)(0x611C5A6B)
+I (..\inc\usb_conf.h)(0x62148B18)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_regs.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_defines.h)(0x611C5A6B)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\gpio.h)(0x62148B18)
+I (..\src\device\drv_pin.h)(0x611C5A6C)
+I (..\src\device\ugdef.h)(0x611C5A6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\inc\timer.h)(0x62148B18)
+I (..\inc\system.h)(0x62148B18)
+F (..\src\system.c)(0x614549DA)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\system.o --omf_browse .\objects\system.crf --depend .\objects\system.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usbd_std.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_std.h)(0x611C5A6B)
+I (..\inc\usb_conf.h)(0x62148B18)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usbd_core.h)(0x611C5A6B)
+I (..\inc\usbd_conf.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_core.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_regs.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_defines.h)(0x611C5A6B)
+I (C:\Keil_v5\ARM\ARMCC\include\wchar.h)(0x57F606B8)
+I (..\inc\usart.h)(0x62148B18)
+I (..\src\device\ugdef.h)(0x611C5A6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\inc\adc.h)(0x62148B18)
+I (..\inc\scan.h)(0x62148B18)
+I (..\inc\digitizer_comm.h)(0x62148B19)
+I (..\inc\usb.h)(0x62148B18)
+I (..\inc\led.h)(0x62148B18)
+I (..\inc\timer.h)(0x62148B18)
+I (..\inc\gpio.h)(0x62148B18)
+I (..\src\device\drv_pin.h)(0x611C5A6C)
+I (..\src\IQS\iqs.h)(0x628DE578)
+I (..\inc\systick.h)(0x62148B18)
+I (..\inc\key.h)(0x62148B18)
+I (..\inc\system.h)(0x62148B18)
+I (..\inc\app_usart.h)(0x62148B18)
+I (..\src\device\taskschedule.h)(0x6142DFB0)
+F (..\src\systick.c)(0x611C5A6C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+I (..\inc\systick.h)(0x62148B18)
+F (..\src\timer.c)(0x611C5A6C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\inc\timer.h)(0x62148B18)
+I (..\inc\scan.h)(0x62148B18)
+I (..\inc\digitizer_comm.h)(0x62148B19)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\inc\preferences.h)(0x621594ED)
+I (..\inc\led.h)(0x62148B18)
+I (..\inc\gpio.h)(0x62148B18)
+I (..\inc\config.h)(0x62148B19)
+I (..\src\device\drv_pin.h)(0x611C5A6C)
+I (..\src\device\ugdef.h)(0x611C5A6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\inc\key.h)(0x62148B18)
+I (..\inc\pwm.h)(0x62148B19)
+F (..\src\usart.c)(0x61456111)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (..\src\device\serial.h)(0x614560E0)
+I (..\src\device\ugdef.h)(0x611C5A6C)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\inc\usart.h)(0x62148B18)
+I (..\inc\timer.h)(0x62148B18)
+I (..\src\device\drv_pin.h)(0x611C5A6C)
+I (..\inc\app_usart.h)(0x62148B18)
+F (..\src\usb.c)(0x614076F1)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\usb.o --omf_browse .\objects\usb.crf --depend .\objects\usb.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_core.h)(0x611C5A6B)
+I (..\inc\usb_conf.h)(0x62148B18)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_regs.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_defines.h)(0x611C5A6B)
+I (..\inc\hid_core.h)(0x62148B18)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usbd_std.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_std.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usbd_core.h)(0x611C5A6B)
+I (..\inc\usbd_conf.h)(0x62148B19)
+I (C:\Keil_v5\ARM\ARMCC\include\wchar.h)(0x57F606B8)
+I (..\inc\hid_descriptor.h)(0x6215E519)
+I (..\inc\usb_delay.h)(0x62148B19)
+I (..\inc\system.h)(0x62148B18)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+I (..\inc\usb.h)(0x62148B18)
+I (..\src\device\serial.h)(0x614560E0)
+I (..\src\device\ugdef.h)(0x611C5A6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\inc\usart.h)(0x62148B18)
+I (..\inc\app_usart.h)(0x62148B18)
+I (..\inc\led.h)(0x62148B18)
+I (..\src\IQS\iqs.h)(0x628DE578)
+F (..\src\usb_delay.c)(0x611C5A6C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\usb_delay.o --omf_browse .\objects\usb_delay.crf --depend .\objects\usb_delay.d)
+I (..\inc\usb_delay.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_core.h)(0x611C5A6B)
+I (..\inc\usb_conf.h)(0x62148B18)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_regs.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_defines.h)(0x611C5A6B)
+F (..\src\wdog.c)(0x611C5A6C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\wdog.o --omf_browse .\objects\wdog.crf --depend .\objects\wdog.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\inc\wdog.h)(0x62148B18)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+F (..\src\xy_antana.c)(0x611C5A6C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\xy_antana.o --omf_browse .\objects\xy_antana.crf --depend .\objects\xy_antana.d)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\inc\gpio.h)(0x62148B18)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+I (..\src\device\drv_pin.h)(0x611C5A6C)
+I (..\src\device\ugdef.h)(0x611C5A6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+F (..\src\xy_calibration.c)(0x611C5A6C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\xy_calibration.o --omf_browse .\objects\xy_calibration.crf --depend .\objects\xy_calibration.d)
+I (..\inc\digitizer_comm.h)(0x62148B19)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\inc\digitizer_api.h)(0x62148B18)
+I (..\inc\scan.h)(0x62148B18)
+I (..\inc\preferences.h)(0x621594ED)
+I (..\inc\xy_calibration.h)(0x62148B18)
+F (..\src\IQS\IQS.c)(0x611C5A6C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\iqs.o --omf_browse .\objects\iqs.crf --depend .\objects\iqs.d)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\inc\gpio.h)(0x62148B18)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+I (..\src\device\drv_pin.h)(0x611C5A6C)
+I (..\src\device\ugdef.h)(0x611C5A6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\src\IQS\ugee_i2c.h)(0x611C5A6C)
+I (..\src\IQS\iqs.h)(0x628DE578)
+I (..\inc\usb.h)(0x62148B18)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_core.h)(0x611C5A6B)
+I (..\inc\usb_conf.h)(0x62148B18)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_regs.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_defines.h)(0x611C5A6B)
+I (..\inc\scan.h)(0x62148B18)
+I (..\inc\digitizer_comm.h)(0x62148B19)
+I (..\inc\led.h)(0x62148B18)
+I (..\inc\timer.h)(0x62148B18)
+I (..\inc\system.h)(0x62148B18)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\src\device\taskschedule.h)(0x6142DFB0)
+I (..\inc\usart.h)(0x62148B18)
+I (..\inc\app_usart.h)(0x62148B18)
+I (..\inc\key.h)(0x62148B18)
+F (..\src\IQS\ugee_i2c.c)(0x611C5A6C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\ugee_i2c.o --omf_browse .\objects\ugee_i2c.crf --depend .\objects\ugee_i2c.d)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\inc\gpio.h)(0x62148B18)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+I (..\src\device\drv_pin.h)(0x611C5A6C)
+I (..\src\device\ugdef.h)(0x611C5A6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\src\IQS\ugee_i2c.h)(0x611C5A6C)
+F (..\..\Firmware\GD32F3x0_usbfs_driver\Source\system_gd32f3x0.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\system_gd32f3x0.o --omf_browse .\objects\system_gd32f3x0.crf --depend .\objects\system_gd32f3x0.d)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+F (..\..\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_adc.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\gd32f3x0_adc.o --omf_browse .\objects\gd32f3x0_adc.crf --depend .\objects\gd32f3x0_adc.d)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+F (..\..\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_ctc.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\gd32f3x0_ctc.o --omf_browse .\objects\gd32f3x0_ctc.crf --depend .\objects\gd32f3x0_ctc.d)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+F (..\..\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_dbg.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\gd32f3x0_dbg.o --omf_browse .\objects\gd32f3x0_dbg.crf --depend .\objects\gd32f3x0_dbg.d)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+F (..\..\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_dma.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\gd32f3x0_dma.o --omf_browse .\objects\gd32f3x0_dma.crf --depend .\objects\gd32f3x0_dma.d)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+F (..\..\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_exti.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\gd32f3x0_exti.o --omf_browse .\objects\gd32f3x0_exti.crf --depend .\objects\gd32f3x0_exti.d)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+F (..\..\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_fmc.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\gd32f3x0_fmc.o --omf_browse .\objects\gd32f3x0_fmc.crf --depend .\objects\gd32f3x0_fmc.d)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+F (..\..\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_fwdgt.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\gd32f3x0_fwdgt.o --omf_browse .\objects\gd32f3x0_fwdgt.crf --depend .\objects\gd32f3x0_fwdgt.d)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+F (..\..\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_gpio.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\gd32f3x0_gpio.o --omf_browse .\objects\gd32f3x0_gpio.crf --depend .\objects\gd32f3x0_gpio.d)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+F (..\..\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_i2c.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\gd32f3x0_i2c.o --omf_browse .\objects\gd32f3x0_i2c.crf --depend .\objects\gd32f3x0_i2c.d)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+F (..\..\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_misc.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\gd32f3x0_misc.o --omf_browse .\objects\gd32f3x0_misc.crf --depend .\objects\gd32f3x0_misc.d)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+F (..\..\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_pmu.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\gd32f3x0_pmu.o --omf_browse .\objects\gd32f3x0_pmu.crf --depend .\objects\gd32f3x0_pmu.d)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+F (..\..\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_rcu.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\gd32f3x0_rcu.o --omf_browse .\objects\gd32f3x0_rcu.crf --depend .\objects\gd32f3x0_rcu.d)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+F (..\..\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_rtc.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\gd32f3x0_rtc.o --omf_browse .\objects\gd32f3x0_rtc.crf --depend .\objects\gd32f3x0_rtc.d)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+F (..\..\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_syscfg.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\gd32f3x0_syscfg.o --omf_browse .\objects\gd32f3x0_syscfg.crf --depend .\objects\gd32f3x0_syscfg.d)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+F (..\..\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_timer.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\gd32f3x0_timer.o --omf_browse .\objects\gd32f3x0_timer.crf --depend .\objects\gd32f3x0_timer.d)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+F (..\..\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_usart.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\gd32f3x0_usart.o --omf_browse .\objects\gd32f3x0_usart.crf --depend .\objects\gd32f3x0_usart.d)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+F (..\..\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_wwdgt.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\gd32f3x0_wwdgt.o --omf_browse .\objects\gd32f3x0_wwdgt.crf --depend .\objects\gd32f3x0_wwdgt.d)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+F (..\..\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_tsi.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\gd32f3x0_tsi.o --omf_browse .\objects\gd32f3x0_tsi.crf --depend .\objects\gd32f3x0_tsi.d)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+F (..\..\Firmware\GD32F3x0_standard_peripheral\Source\gd32f3x0_crc.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\gd32f3x0_crc.o --omf_browse .\objects\gd32f3x0_crc.crf --depend .\objects\gd32f3x0_crc.d)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+F (..\..\Firmware\CMSIS\GD\GD32F3x0\Source\ARM\startup_gd32f3x0.s)(0x611C5A6A)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 523" --pd "GD32F350 SETA 1"--list .\listings\startup_gd32f3x0.lst --xref -o .\objects\startup_gd32f3x0.o --depend .\objects\startup_gd32f3x0.d)
+F (..\..\Firmware\GD32F3x0_usbfs_driver\Source\usb_core.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\usb_core.o --omf_browse .\objects\usb_core.crf --depend .\objects\usb_core.d)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_core.h)(0x611C5A6B)
+I (..\inc\usb_conf.h)(0x62148B18)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_regs.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_defines.h)(0x611C5A6B)
+F (..\..\Firmware\GD32F3x0_usbfs_driver\Source\usbd_core.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\usbd_core.o --omf_browse .\objects\usbd_core.crf --depend .\objects\usbd_core.d)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usbd_core.h)(0x611C5A6B)
+I (..\inc\usbd_conf.h)(0x62148B19)
+I (..\inc\usb_conf.h)(0x62148B18)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_core.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_regs.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_defines.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usbd_std.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_std.h)(0x611C5A6B)
+I (C:\Keil_v5\ARM\ARMCC\include\wchar.h)(0x57F606B8)
+F (..\..\Firmware\GD32F3x0_usbfs_driver\Source\usbd_int.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\usbd_int.o --omf_browse .\objects\usbd_int.crf --depend .\objects\usbd_int.d)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usbd_int.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usbd_core.h)(0x611C5A6B)
+I (..\inc\usbd_conf.h)(0x62148B19)
+I (..\inc\usb_conf.h)(0x62148B18)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_core.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_regs.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_defines.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usbd_std.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_std.h)(0x611C5A6B)
+I (C:\Keil_v5\ARM\ARMCC\include\wchar.h)(0x57F606B8)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+F (..\..\Firmware\GD32F3x0_usbfs_driver\Source\usbd_std.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\usbd_std.o --omf_browse .\objects\usbd_std.crf --depend .\objects\usbd_std.d)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usbd_std.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_std.h)(0x611C5A6B)
+I (..\inc\usb_conf.h)(0x62148B18)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usbd_core.h)(0x611C5A6B)
+I (..\inc\usbd_conf.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_core.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_regs.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_usbfs_driver\Include\usb_defines.h)(0x611C5A6B)
+I (C:\Keil_v5\ARM\ARMCC\include\wchar.h)(0x57F606B8)
+I (..\inc\hid_descriptor.h)(0x6215E519)
+I (..\inc\gpio.h)(0x62148B18)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+I (..\src\device\drv_pin.h)(0x611C5A6C)
+I (..\src\device\ugdef.h)(0x611C5A6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\inc\key.h)(0x62148B18)
+I (..\inc\led.h)(0x62148B18)
+I (..\src\IQS\iqs.h)(0x628DE578)
+I (..\inc\system.h)(0x62148B18)
+I (..\inc\usart.h)(0x62148B18)
+I (..\inc\app_usart.h)(0x62148B18)
+F (..\lib\digitizer_lib_200722.lib)(0x611C5A6C)()
+F (..\src\device\clock.c)(0x61406E29)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\clock.o --omf_browse .\objects\clock.crf --depend .\objects\clock.d)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+I (..\src\device\clock.h)(0x611C5A6C)
+F (..\src\device\drv_pin.c)(0x6145386E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\drv_pin.o --omf_browse .\objects\drv_pin.crf --depend .\objects\drv_pin.d)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\src\device\drv_pin.h)(0x611C5A6C)
+I (..\src\device\ugdef.h)(0x611C5A6C)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+F (..\src\device\serial.c)(0x6142F46D)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\serial.o --omf_browse .\objects\serial.crf --depend .\objects\serial.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\Gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\inc\gpio.h)(0x62148B18)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+I (..\src\device\drv_pin.h)(0x611C5A6C)
+I (..\src\device\ugdef.h)(0x611C5A6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\src\device\serial.h)(0x614560E0)
+I (..\inc\usart.h)(0x62148B18)
+I (..\src\device\ugservice.h)(0x611C5A6C)
+F (..\src\device\taskschedule.c)(0x614550E1)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\taskschedule.o --omf_browse .\objects\taskschedule.crf --depend .\objects\taskschedule.d)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\gd32f3x0.h)(0x628DE578)
+I (..\..\Firmware\CMSIS\core_cm4.h)(0x611C5A6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\..\Firmware\CMSIS\core_cmInstr.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cmFunc.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\core_cm4_simd.h)(0x611C5A6A)
+I (..\..\Firmware\CMSIS\GD\GD32F3x0\Include\system_gd32f3x0.h)(0x611C5A6A)
+I (..\inc\gd32f3x0_libopt.h)(0x62148B19)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_adc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_crc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_ctc.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dbg.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dma.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_exti.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fmc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_gpio.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_syscfg.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_i2c.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_fwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_pmu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rcu.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_rtc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_spi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_timer.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_usart.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_wwdgt.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_misc.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_tsi.h)(0x611C5A6B)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cec.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_cmp.h)(0x611C5A6A)
+I (..\..\Firmware\GD32F3x0_standard_peripheral\Include\gd32f3x0_dac.h)(0x611C5A6A)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+I (..\src\device\clock.h)(0x611C5A6C)
+I (..\src\device\taskschedule.h)(0x6142DFB0)
+I (..\inc\app_usart.h)(0x62148B18)
+I (..\src\device\ugdef.h)(0x611C5A6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (..\inc\key.h)(0x62148B18)
+I (..\inc\led.h)(0x62148B18)
+I (..\src\IQS\iqs.h)(0x628DE578)
+I (..\inc\comm.h)(0x62148B18)
+I (..\inc\system.h)(0x62148B18)
+I (..\inc\scan.h)(0x62148B18)
+I (..\inc\digitizer_comm.h)(0x62148B19)
+I (..\inc\gpio.h)(0x62148B18)
+I (..\src\device\drv_pin.h)(0x611C5A6C)
+F (..\src\FlexibleButton\flexible_button.c)(0x611C5A6C)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\flexible_button.o --omf_browse .\objects\flexible_button.crf --depend .\objects\flexible_button.d)
+I (..\src\FlexibleButton\flexible_button.h)(0x611C5A6C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (..\inc\config.h)(0x62148B19)
+I (..\inc\preferences.h)(0x621594ED)
+F (..\..\RTT\RTT\SEGGER_RTT.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\segger_rtt.o --omf_browse .\objects\segger_rtt.crf --depend .\objects\segger_rtt.d)
+I (..\..\RTT\RTT\SEGGER_RTT.h)(0x611C5A6B)
+I (..\..\RTT\RTT\SEGGER_RTT_Conf.h)(0x611C5A6B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F606B8)
+F (..\..\RTT\RTT\SEGGER_RTT_printf.c)(0x611C5A6B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\inc -I ..\src -I ..\..\Utilities -I ..\..\Firmware\CMSIS -I ..\..\Firmware\GD32F3x0_usbfs_driver\Include -I ..\..\Firmware\GD32F3x0_standard_peripheral\Include -I ..\..\Firmware\CMSIS\GD\GD32F3x0\Include -I ..\src\IQS -I ..\src\device --c99-I.\RTE\_project-IC:\Users\Administrator\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\2.0.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="523" -DGD32F350 -DUSE_STDPERIPH_DRIVER -DUSE_USBFS -DGD32F350 -D__TARGET_FPU_VFP-o .\objects\segger_rtt_printf.o --omf_browse .\objects\segger_rtt_printf.crf --depend .\objects\segger_rtt_printf.d)
+I (..\..\RTT\RTT\SEGGER_RTT.h)(0x611C5A6B)
+I (..\..\RTT\RTT\SEGGER_RTT_Conf.h)(0x611C5A6B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)

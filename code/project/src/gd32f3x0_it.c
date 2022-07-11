@@ -1,0 +1,243 @@
+#include "gd32f3x0_it.h"
+#include "usbd_int.h"
+#include "usb_delay.h"
+#include "config.h"
+#include "clock.h"
+//#include "wdog.h"
+#include "gpio.h"
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+extern usb_core_handle_struct usbhs_core_dev;
+extern uint32_t usbfs_prescaler;
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//    \brief      this function handles NMI exception
+//    \param[in]  none
+//    \param[out] none
+//    \retval     none
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void NMI_Handler(void)
+{
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//    \brief      this function handles HardFault exception
+//    \param[in]  none
+//    \param[out] none
+//    \retval     none
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void HardFault_Handler(void)
+{
+    // if Hard Fault exception occurs, go to infinite loop
+    RTC_BKP0 = BKP_VALUE;
+    soft_reset();
+    //LED_ON;
+    //while (1);
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//    \brief      this function handles MemManage exception
+//    \param[in]  none
+//    \param[out] none
+//    \retval     none
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void MemManage_Handler(void)
+{
+    // if Memory Manage exception occurs, go to infinite loop
+    while (1);
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//    \brief      this function handles BusFault exception
+//    \param[in]  none
+//    \param[out] none
+//    \retval     none
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void BusFault_Handler(void)
+{
+    // if Bus Fault exception occurs, go to infinite loop
+    while (1);
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//    \brief      this function handles UsageFault exception
+//    \param[in]  none
+//    \param[out] none
+//    \retval     none
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void UsageFault_Handler(void)
+{
+    // if Usage Fault exception occurs, go to infinite loop
+    while (1);
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//    \brief      this function handles SVC exception
+//    \param[in]  none
+//    \param[out] none
+//    \retval     none
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void SVC_Handler(void)
+{
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//    \brief      this function handles DebugMon exception
+//    \param[in]  none
+//    \param[out] none
+//    \retval     none
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void DebugMon_Handler(void)
+{
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//    \brief      this function handles PendSV exception
+//    \param[in]  none
+//    \param[out] none
+//    \retval     none
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void PendSV_Handler(void)
+{
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//    \brief      this function handles SysTick exception
+//    \param[in]  none
+//    \param[out] none
+//    \retval     none
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void SysTick_Handler(void)
+{
+    ug_tick_increase();
+   
+}
+
+#ifdef  configUse_RTC
+void RTC_IRQHandler(void)
+{
+    if(RESET != rtc_flag_get(RTC_STAT_ALRM0F))
+    {
+        rtc_flag_clear(RTC_STAT_ALRM0F);
+        exti_flag_clear(EXTI_17);
+        //fwdog_feed();
+    }
+}
+#endif
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//    \brief      this function handles USBD interrupt
+//    \param[in]  none
+//    \param[out] none
+//    \retval     none
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void  USBFS_IRQHandler (void)
+{
+    usbd_isr (&usbhs_core_dev);
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//    \brief      this function handles EXTI0_IRQ Handler
+//    \param[in]  none
+//    \param[out] none
+//    \retval     none
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void EXTI0_1_IRQHandler(void)
+{
+    if (exti_interrupt_flag_get(EXTI_0) != RESET)
+    {
+        if (usbhs_core_dev.dev.remote_wakeup)
+        {
+            SystemInit();
+
+#ifndef USE_IRC48M
+            rcu_ck48m_clock_config(RCU_CK48MSRC_PLL48M);
+
+            rcu_usbfs_clock_config(usbfs_prescaler);
+#else
+            // enable IRC48M clock
+            rcu_osci_on(RCU_IRC48M);
+
+            // wait till IRC48M is ready
+            while (SUCCESS != rcu_osci_stab_wait(RCU_IRC48M)) ;
+
+            rcu_ck48m_clock_config(RCU_CK48MSRC_IRC48M);
+#endif
+
+            rcu_periph_clock_enable(RCU_USBFS);
+
+            usb_clock_ungate(&usbhs_core_dev);
+
+            USB_REMOTE_WAKEUP_SET();
+
+            usb_delay_ms(5U);
+
+            USB_REMOTE_WAKEUP_RESET();
+
+            usbhs_core_dev.dev.status = usbhs_core_dev.dev.prev_status;
+
+            usbhs_core_dev.dev.remote_wakeup = 0U;
+        }
+        // clear the exti line pending bit
+        exti_interrupt_flag_clear(EXTI_0);
+    }
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//    \brief      this function handles USBD wakeup interrupt request.
+//    \param[in]  none
+//    \param[out] none
+//    \retval     none
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void USBFS_WKUP_IRQHandler(void)
+{
+    if (usbhs_core_dev.cfg.low_power)
+    {
+        SystemInit();
+
+        #ifndef USE_IRC48M
+        rcu_ck48m_clock_config(RCU_CK48MSRC_PLL48M);
+
+        rcu_usbfs_clock_config(usbfs_prescaler);
+        #else
+        // enable IRC48M clock
+        rcu_osci_on(RCU_IRC48M);
+
+        // wait till IRC48M is ready
+        while (SUCCESS != rcu_osci_stab_wait(RCU_IRC48M)) ;
+
+        rcu_ck48m_clock_config(RCU_CK48MSRC_IRC48M);
+        #endif
+
+        rcu_periph_clock_enable(RCU_USBFS);
+
+        usb_clock_ungate(&usbhs_core_dev);
+    }
+
+    exti_interrupt_flag_clear(EXTI_18);
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//    \brief      this function handles Timer13 updata interrupt request.
+//    \param[in]  none
+//    \param[out] none
+//    \retval     none
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void TIMER13_IRQHandler(void)
+{
+     timer13_delay_irq();
+}
+
+
